@@ -4,4 +4,36 @@ describe('<Quiz />', () => {
     beforeEach(() => {
       cy.mount(<Quiz />);
     });
+  it('should display start quiz', ()=>{
+    cy.get('button')
+      .contains('Start Quiz')
+      .should('be.visible');
+  });
+  it('should start the quiz and display question', () =>{
+    cy.get('button')
+      .contains('Start Quiz')
+      .click();
+    cy.get('h2')
+      .should('be.visible');
+    cy.get('button.btn.btn-primary')
+    .should('havelength',4);
+  });
+  it('should complete the quiz and display the score', () => {
+
+    cy.get('button')
+    .contains('Start Quiz')
+    .click();
+
+    for (let i = 0; i < 10; i++) {
+        cy.get('button.btn.btn-primary')
+        .first()
+        .click();
+    }
+
+    cy.get('h2')
+    .contains('Quiz Completed')
+    .should('be.visible');
+    cy.get('div.alert-success')
+    .should('be.visible');
+});
 });

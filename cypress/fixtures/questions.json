@@ -1,0 +1,39 @@
+[
+    {
+      "question": "What is the purpose of using a `schema.sql` file in a PostgreSQL database?",
+      "answers": [
+        { "text": "To define the structure of the database", "isCorrect": true },
+        { "text": "To store user data", "isCorrect": false },
+        { "text": "To execute SQL queries", "isCorrect": false },
+        { "text": "To create a backup of the database", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How do you handle asynchronous operations in JavaScript?",
+      "answers": [
+        { "text": "Using synchronous functions", "isCorrect": false },
+        { "text": "Using callbacks, Promises, or async/await", "isCorrect": true },
+        { "text": "Using global variables", "isCorrect": false },
+        { "text": "Using the setTimeout function", "isCorrect": false }
+      ]
+    },
+  
+    {
+      "question": "What is the output of the expression '5' + 5 in JavaScript?",
+      "answers": [
+        { "text": "10", "isCorrect": false },
+        { "text": "'55'", "isCorrect": true },
+        { "text": "Error", "isCorrect": false },
+        { "text": "5", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following methods can be used to add an element to the end of an array in JavaScript?",
+      "answers": [
+        { "text": "push()", "isCorrect": true },
+        { "text": "pop()", "isCorrect": false },
+        { "text": "shift()", "isCorrect": false },
+        { "text": "unshift()", "isCorrect": false }
+      ]
+    }
+  ]
