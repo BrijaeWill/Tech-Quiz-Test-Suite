@@ -2,7 +2,7 @@ describe('Tech Quiz', () => {
     beforeEach(()=>{
         cy.visit('/');
     });
-    // This test case verifies that the quiz can be started and completed successfully.
+    // test case verifies that the quiz can be started and completed successfully.
     it('should start the quiz and complete it', () => {
         cy.get('button').contains('Start Quiz').click();
         cy.get('h2').should('be.visible');
