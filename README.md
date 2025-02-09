@@ -26,6 +26,9 @@
   ### Run the following commands in your terminal to test this app:
   ### To test this project after running the following cli commands run npm test to see what the tech-quiz is suppose to do
 
+  ## Walkthrough
+  ### https://app.screencastify.com/v3/watch/p7tpyDyfLNCKwVtfxd6s
+
   ## Questions:
   ### If you have any questions, you may contact me at either
   ### Github: https://github.com/BrijaeWil
